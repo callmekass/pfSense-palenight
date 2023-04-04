@@ -23,6 +23,48 @@
 @import url('/css/fonts/roboto.css');
 @import url('/vendor/jquery-ui/jquery-ui-1.12.1.min.css');
 
+:root {
+  --background: #292d3e;
+  --foreground: #a6accd;
+  --text: #676e95;
+  --selection-background: #717cb470;
+  --selection-foreground: #ffffff;
+  --buttons: #303348;
+  --second-background: #34324a;
+  --disabled: #515772;
+  --contrast: #202331;
+  --active: #414863;
+  --border: #2b2a3e;
+  --highlight: #444267;
+  --tree: #676e95;
+  --notifications: #202331;
+  --accent-color: #ab47bc;
+  --excluded-files-color: #2f2e43;
+
+  --green: #c3e88d;
+  --yellow: #ffcb6b;
+  --blue: #82aaff;
+  --red: #f07178;
+  --purple: #c792ea;
+  --orange: #f78c6c;
+  --cyan: #89ddff;
+  --gray: #676e95;
+  --white-black: #eeffff;
+  --error: #ff5370;
+
+  --comments: #676e95;
+  --variables: #eeffff;
+  --links: #80cbc4;
+  --functions: #82aaff;
+  --keywords: #c792ea;
+  --tags: #f07178;
+  --strings: #c3e88d;
+  --operators: #89ddff;
+  --attributes: #ffcb6b;
+  --numbers: #f78c6c;
+  --parameters: #f78c6c;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -30,7 +72,7 @@ html {
 
 body {
   margin-bottom: 80px;
-  background-color: #292d3e;
+  background-color: var(--background);
   color: #a6accd;
   font-family: 'Roboto', sans-serif;
 }
@@ -53,7 +95,7 @@ body#index .icons {
 }
 
 a {
-  color: #c792ea;
+  color: var(--links);
 }
 
 a:hover {
@@ -175,12 +217,12 @@ tr.disabled a {
   padding: 14px 19px 10px 19px;
   border-bottom: 5px solid #f5f5f5;
   border-radius: 0;
-  color: #f07178;
+  color: var(--tags);
 }
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-  border-bottom: 5px solid #f07178;
+  border-bottom: 5px solid var(--tags);
   background-color: #f5f5f5;
 }
 
@@ -189,8 +231,8 @@ tr.disabled a {
 .nav li.open > a,
 .nav li.open > a:focus,
 .nav-pills > li.active > a:hover {
-  border-bottom: 5px solid #f07178;
-  color: #f07178;
+  border-bottom: 5px solid var(--tags);
+  color: var(--tags);
   background-color: #f5f5f5;
 }
 
@@ -212,14 +254,14 @@ tr.disabled a {
   border-right: 1px solid #f5f5f5;
   border-top: 1px solid #f5f5f5;
   background-color: #f5f5f5;
-  border-bottom: 5px solid #f07178;
+  border-bottom: 5px solid var(--tags);
   margin-bottom: 0;
-  color: #f07178;
+  color: var(--tags);
   box-shadow: none;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #f07178;
+  border-bottom: 1px solid var(--tags);
   margin-bottom: 15px;
 }
 
@@ -440,11 +482,11 @@ tr.disabled a {
 }
 
 .breadcrumb > li + li:before {
-  color: #f07178;
+  color: var(--tags);
 }
 
 ul.context-links li a {
-  color: #f07178;
+  color: var(--tags);
 }
 
 /** Form tweaks */
@@ -568,7 +610,7 @@ footer a {
 }
 
 .progress-bar {
-  background-color: #f07178;
+  background-color: var(--tags);
 }
 
 .progress-bar.progress-bar-success {
@@ -580,7 +622,7 @@ footer a {
 }
 
 .progress-bar.progress-bar-danger {
-  background-color: #f07178;
+  background-color: var(--tags);
 }
 
 .panel-body.collapse.in {
@@ -639,7 +681,7 @@ footer a {
 }
 
 .btn-danger {
-  background-color: #f07178;
+  background-color: var(--tags);
 }
 
 .btn-primary {
@@ -655,7 +697,7 @@ footer a {
 }
 
 .text-danger {
-  color: #f07178;
+  color: var(--red);
 }
 /** end common colors */
 
@@ -1082,9 +1124,4 @@ svg {
  text underline, but text-color, background, font etc. could also be used */
 .element-required {
   box-shadow: inset 0 0px 0 white, inset 0 -1px 0 #a6accd;
-}
-
-.element-required::after {
-  content: '*';
-  color: #f07178;
 }
