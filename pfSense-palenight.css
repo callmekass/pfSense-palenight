@@ -367,6 +367,12 @@ tr.disabled a {
   margin-bottom: 5px;
 }
 
+.form-control:focus {
+  border-color: var(--active);
+  -webkit-box-shadow: 0 0 0 2px var(--links);
+  box-shadow: 0 0 0 2px var(--links);
+}
+
 .form-control option {
   padding: inherit;
 }
