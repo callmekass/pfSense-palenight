@@ -118,6 +118,11 @@ h1 a:active {
   text-decoration: none !important;
 }
 
+code {
+  color: var(--gray);
+  padding: 6px 8px;
+}
+
 /* Zero-width optional linebreaks can help the browser to linebreak at 'good' places.
     Unfortunately the two most compatible options aren't consistently supported.
     "\00200B" or #8203; is part of unicode and widely implemented; and <wbr> is widely
@@ -1066,10 +1071,9 @@ a[href]:after {
 .bs-callout {
   padding: 10px 15px;
   margin: 20px 0;
-  border: 2px solid #eee;
-  border-left-width: 5px;
-  border-radius: 3px;
+  border-left: 5px solid var(--purple);
   font-size: 13px;
+  background-color: var(--contrast);
 }
 
 .bs-callout h4 {
