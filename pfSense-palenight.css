@@ -998,6 +998,10 @@ table[data-sortable].sortable-theme-bootstrap thead th {
     width: 50%;
   }
 
+  .breadcrumb li a {
+    color: var(--purple);
+  }
+
   .breadcrumb li:not(:last-child),
   .breadcrumb > li + li:before {
     display: none;
