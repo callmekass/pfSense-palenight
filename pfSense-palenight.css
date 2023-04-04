@@ -27,7 +27,8 @@
   --background: #292d3e;
   --foreground: #a6accd;
   --text: #676e95;
-  --border-color: #717cb470;
+  --border: #717cb470;
+  --border-secondary: #717cb4;
   --selection-foreground: #ffffff;
   --buttons: #303348;
   --second-background: #34324a;
@@ -36,7 +37,6 @@
   --active: #414863;
   --border: #2b2a3e;
   --highlight: #444267;
-  --tree: #676e95;
   --notifications: #202331;
   --accent-color: #ab47bc;
   --excluded-files-color: #2f2e43;
@@ -148,7 +148,7 @@ wbr:after {
 .table > tfoot > tr > th,
 .table > thead > tr > td,
 .table > thead > tr > th {
-  border-color: var(--border-color);
+  border-color: var(--border);
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
@@ -311,6 +311,7 @@ tr.disabled a {
   color: var(--foreground);
   background-color: var(--contrast);
   letter-spacing: 1px;
+  border-color: var(--border-secondary);
 }
 
 .panel-heading {
