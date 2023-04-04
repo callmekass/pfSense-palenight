@@ -50,17 +50,20 @@
   --white-black: #eeffff;
   --error: #ff5370;
 
-  --comments: #676e95;
-  --variables: #eeffff;
+  --light-green: #000;
+  --dark-green: #000;
+
+  --light-blue: #ddeeff;
+  --dark-blue: #5085f7;
+
+  --light-yellow: #000;
+  --dark-yellow: #000;
+
+  --light-red: #000;
+  --dark-red: #000;
+
   --links: #80cbc4;
-  --functions: #82aaff;
-  --keywords: #c792ea;
   --tags: #f07178;
-  --strings: #c3e88d;
-  --operators: #89ddff;
-  --attributes: #ffcb6b;
-  --numbers: #f78c6c;
-  --parameters: #f78c6c;
 }
 
 html {
@@ -668,10 +671,10 @@ footer a {
 }
 
 .alert-info {
-  color: #01579b;
-  background-color: #e1f5fe;
-  border-color: #b2ebf2;
-  border-top: 5px solid #01579b;
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  border-color: var(--dark-blue);
+  border-top: 5px solid var(--dark-blue);
 }
 
 .bg-primary {
@@ -680,8 +683,8 @@ footer a {
 }
 
 .bg-info {
-  color: #01579b;
-  background-color: #b3e5fc;
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
 }
 
 .bg-danger {
@@ -704,11 +707,11 @@ footer a {
 }
 
 .btn-danger {
-  background-color: var(--tags);
+  background-color: var(--red);
 }
 
 .btn-primary {
-  background-color: var(--blue);
+  background-color: var(--dark-blue);
 }
 
 .text-warning {
