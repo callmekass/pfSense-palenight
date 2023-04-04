@@ -142,12 +142,22 @@ wbr:after {
   font-family: Roboto, sans-serif;
 }
 
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: var(--second-background);
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: var(--background);
+}
+
 .table-striped > tbody > tr.disabled:nth-of-type(odd) {
-  background-color: rgba(#34324a, 50%);
+  background-color: rgba(249, 249, 249, 0.5);
+  color: rgba(51, 51, 51, 0.5);
 }
 
 .table-striped > tbody > tr.disabled:nth-of-type(even) {
-  background-color: #34324a;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(51, 51, 51, 0.5);
 }
 
 .table-hover > tbody > tr.disabled:hover {
