@@ -34,7 +34,6 @@
   --contrast: #202331;
   --active: #414863;
   --border: #2b2a3e;
-  --border-secondary: #717cb470;
   --highlight: #444267;
   --notifications: #202331;
   --accent-color: #ab47bc;
@@ -309,8 +308,9 @@ tr.disabled a {
 .panel-default > .panel-heading {
   color: var(--foreground);
   background-color: var(--contrast);
+  padding: 8px 15px;
   letter-spacing: 1px;
-  border-color: var(--border-secondary);
+  border: none;
 }
 
 .panel-heading {
