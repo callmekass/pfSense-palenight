@@ -285,8 +285,13 @@ tr.disabled a {
   margin-bottom: 20px;
 }
 
+.dropdown-menu {
+  background-color: var(--background);
+}
+
 .dropdown-menu > li > a {
   padding: 5px 20px;
+  color: var(--foreground);
 }
 
 .navbar-right > li > a {
