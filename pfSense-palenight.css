@@ -625,7 +625,7 @@ footer a {
 .progress {
   margin-bottom: 0px;
   height: 14px;
-  background-color: #eeeeff;
+  background-color: var(--contrast);
 }
 
 #wizard .progress {
