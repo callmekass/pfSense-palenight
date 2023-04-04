@@ -173,7 +173,7 @@ tr.disabled a {
 }
 
 .contains-table table {
-  border: 1px solid #ddd;
+  border: 1px solid var(--border);
 }
 
 /** Content structure */
@@ -564,7 +564,7 @@ footer a {
   z-index: 100;
   text-align: center;
   background: rgba(255, 255, 255, 0.6);
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--border);
 }
 
 /** Styling for jQuery autocomplete widget */
