@@ -737,6 +737,11 @@ footer a {
 }
 /** end common colors */
 
+table[data-sortable].sortable-theme-bootstrap {
+  color: var(--foreground);
+  background: transparent;
+}
+
 .table-hover > tbody > tr.hover-success:hover {
   color: #000;
   background-color: #a5d6a7;
