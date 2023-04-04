@@ -63,7 +63,6 @@
   --dark-red: #000;
 
   --links: #80cbc4;
-  --tags: #f07178;
 }
 
 html {
@@ -380,7 +379,7 @@ tr.disabled a {
 .form-group {
   margin: 0;
   padding: 7px 5px 5px 5px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--border);
 }
 
 .form-group:last-child {
