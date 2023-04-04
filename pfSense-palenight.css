@@ -30,7 +30,8 @@ html {
 
 body {
   margin-bottom: 80px;
-  background-color: #f5f5f5;
+  background-color: #292d3e;
+  color: #a6accd;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -49,6 +50,10 @@ body.no-menu #jumbotron {
 
 body#index .icons {
   float: right;
+}
+
+a {
+  color: #c792ea;
 }
 
 a:hover {
@@ -80,7 +85,7 @@ h1 a:active {
     compatibility pre-HTML5 - use <wbr> and automatically insert #&8203; after it. Should
     be invisible, facilitates neat line breaking when manual control is desired. */
 wbr:after {
-  content: '\00200B';
+  content: '\00000200B';
 }
 
 .container.fixed {
@@ -169,12 +174,12 @@ tr.disabled a {
   padding: 14px 19px 10px 19px;
   border-bottom: 5px solid #f5f5f5;
   border-radius: 0;
-  color: #b71c1c;
+  color: #f07178;
 }
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-  border-bottom: 5px solid #b71c1c;
+  border-bottom: 5px solid #f07178;
   background-color: #f5f5f5;
 }
 
@@ -183,8 +188,8 @@ tr.disabled a {
 .nav li.open > a,
 .nav li.open > a:focus,
 .nav-pills > li.active > a:hover {
-  border-bottom: 5px solid #b71c1c;
-  color: #b71c1c;
+  border-bottom: 5px solid #f07178;
+  color: #f07178;
   background-color: #f5f5f5;
 }
 
@@ -206,14 +211,14 @@ tr.disabled a {
   border-right: 1px solid #f5f5f5;
   border-top: 1px solid #f5f5f5;
   background-color: #f5f5f5;
-  border-bottom: 5px solid #b71c1c;
+  border-bottom: 5px solid #f07178;
   margin-bottom: 0;
-  color: #b71c1c;
+  color: #f07178;
   box-shadow: none;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #b71c1c;
+  border-bottom: 1px solid #f07178;
   margin-bottom: 15px;
 }
 
@@ -412,9 +417,8 @@ tr.disabled a {
 .header {
   position: relative;
   margin: 10px 0 20px 0;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   margin-bottom: 10px;
-  background-color: #e0e0e0;
+  background-color: #34324a;
 }
 
 .header .context-links {
@@ -430,16 +434,16 @@ tr.disabled a {
 }
 
 .breadcrumb {
-  background-color: #e0e0e0;
+  background-color: transparent;
   font-size: 22px;
 }
 
 .breadcrumb > li + li:before {
-  color: #b71c1c;
+  color: #f07178;
 }
 
 ul.context-links li a {
-  color: #b71c1c;
+  color: #f07178;
 }
 
 /** Form tweaks */
@@ -563,7 +567,7 @@ footer a {
 }
 
 .progress-bar {
-  background-color: #b71c1c;
+  background-color: #f07178;
 }
 
 .progress-bar.progress-bar-success {
@@ -575,7 +579,7 @@ footer a {
 }
 
 .progress-bar.progress-bar-danger {
-  background-color: #b71c1c;
+  background-color: #f07178;
 }
 
 .panel-body.collapse.in {
@@ -634,7 +638,7 @@ footer a {
 }
 
 .btn-danger {
-  background-color: #b71c1c;
+  background-color: #f07178;
 }
 
 .btn-primary {
@@ -650,7 +654,7 @@ footer a {
 }
 
 .text-danger {
-  color: #b71c1c;
+  color: #f07178;
 }
 /** end common colors */
 
