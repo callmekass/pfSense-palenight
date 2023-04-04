@@ -205,15 +205,15 @@ tr.disabled a {
 }
 
 .logo-st0 {
-  fill: #ffffff;
+  fill: var(--foreground);
 }
 
 .logo-st1 {
-  fill: #ffffff;
+  fill: var(--foreground);
 }
 
 .logo-st2 {
-  fill: #ffffff;
+  fill: var(--foreground);
 }
 
 .navbar-brand {
@@ -299,7 +299,7 @@ tr.disabled a {
 }
 
 .panel-default > .panel-heading {
-  color: #fff;
+  color: var(--foreground);
   background-color: #202331;
   letter-spacing: 1px;
 }
@@ -546,7 +546,7 @@ form .btn + .btn {
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--foreground);
 }
 
 /** Homepage / dashboard */
@@ -776,8 +776,9 @@ footer a {
   float: right;
 }
 
+.panel-title,
 .widget-heading-icon .fa {
-  color: #fff;
+  color: var(--foreground);
 }
 
 .widget-heading-icon .fa:hover {
