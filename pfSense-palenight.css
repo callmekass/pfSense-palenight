@@ -72,7 +72,7 @@ html {
 body {
   margin-bottom: 80px;
   background-color: var(--background);
-  color: #a6accd;
+  color: var(--foreground);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -1149,7 +1149,7 @@ svg {
 }
 
 .traffic-widget-chart:not(:last-child) {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid var(--border);
 }
 
 .nvtooltip > h3 {
@@ -1166,7 +1166,7 @@ svg {
 }
 
 .colspanth {
-  background-color: #eeeeee;
+  background-color: var(--background);
 }
 
 /* Required input elements have a title that begins with "*". This causes
@@ -1174,7 +1174,7 @@ svg {
  can then be used to style required input here. Example below uses a custom
  text underline, but text-color, background, font etc. could also be used */
 .element-required {
-  box-shadow: inset 0 0px 0 white, inset 0 -1px 0 #a6accd;
+  box-shadow: inset 0 0px 0 white, inset 0 -1px 0 var(--foreground);
 }
 
 /* Formatting for the Traffic Graph widget */
