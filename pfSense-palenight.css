@@ -51,7 +51,7 @@
   --error: #ff5370;
 
   --light-green: #000;
-  --dark-green: #000;
+  --dark-green: #5ebc5a;
 
   --light-blue: #ddeeff;
   --dark-blue: #5085f7;
@@ -239,7 +239,7 @@ tr.disabled a {
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-  border-bottom: 5px solid var(--links);
+  border-bottom: 5px solid var(--purple);
   background-color: transparent;
 }
 
@@ -248,7 +248,7 @@ tr.disabled a {
 .nav li.open > a,
 .nav li.open > a:focus,
 .nav-pills > li.active > a:hover {
-  border-bottom: 5px solid var(--links);
+  border-bottom: 5px solid var(--purple);
   color: var(--foreground);
   background-color: var(--contrast);
 }
@@ -702,7 +702,7 @@ footer a {
 }
 
 .btn-success {
-  background-color: var(--green);
+  background-color: var(--dark-green);
 }
 
 .btn-danger {
