@@ -309,13 +309,15 @@ tr.disabled a {
   border-radius: 0;
 }
 
-.panel-heading a:link,
-.panel-heading a:visited {
-  color: white;
-}
-
 .panel-title {
   font-size: 16px;
+}
+
+.panel-title,
+.panel-heading a:link,
+.panel-heading a:visited,
+.widget-heading-icon .fa {
+  color: var(--foreground);
 }
 
 .panel-body {
@@ -774,11 +776,6 @@ footer a {
 .widget-heading-icon {
   display: block;
   float: right;
-}
-
-.panel-title,
-.widget-heading-icon .fa {
-  color: var(--foreground);
 }
 
 .widget-heading-icon .fa:hover {
