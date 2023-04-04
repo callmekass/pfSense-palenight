@@ -143,13 +143,11 @@ wbr:after {
 }
 
 .table-striped > tbody > tr.disabled:nth-of-type(odd) {
-  background-color: rgba(249, 249, 249, 0.5);
-  color: rgba(51, 51, 51, 0.5);
+  background-color: rgba(#34324a, 50%);
 }
 
 .table-striped > tbody > tr.disabled:nth-of-type(even) {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: rgba(51, 51, 51, 0.5);
+  background-color: #34324a;
 }
 
 .table-hover > tbody > tr.disabled:hover {
@@ -287,6 +285,7 @@ tr.disabled a {
   margin-bottom: 10px;
   border-radius: 0;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+  background-color: var(--second-background);
 }
 
 .panel-default > .panel-heading {
@@ -461,7 +460,7 @@ tr.disabled a {
   position: relative;
   margin: 10px 0 20px 0;
   margin-bottom: 10px;
-  background-color: #34324a;
+  background-color: var(--second-background);
 }
 
 .header .context-links {
