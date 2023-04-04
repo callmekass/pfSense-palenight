@@ -742,6 +742,11 @@ table[data-sortable].sortable-theme-bootstrap {
   background: transparent;
 }
 
+table[data-sortable].sortable-theme-bootstrap thead th,
+table[data-sortable].sortable-theme-bootstrap tbody td {
+  border-color: var(--border);
+}
+
 .table-hover > tbody > tr.hover-success:hover {
   color: #000;
   background-color: #a5d6a7;
