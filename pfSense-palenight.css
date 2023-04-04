@@ -1136,3 +1136,13 @@ svg {
 .element-required {
   box-shadow: inset 0 0px 0 white, inset 0 -1px 0 #a6accd;
 }
+
+.nv-series-0 {
+  fill: var(--blue);
+  stroke: var(--blue);
+}
+
+.nv-series-1 {
+  fill: var(--yellow);
+  stroke: var(--yellow);
+}
