@@ -61,7 +61,6 @@
 
   --light-red: #f2dede;
   --dark-red: #d86563;
-
   --links: #80cbc4;
 }
 
@@ -469,6 +468,7 @@ tr.disabled a {
 
 .help-block {
   margin-bottom: 0;
+  color: var(--text);
 }
 
 .action-buttons {
@@ -709,7 +709,7 @@ footer a {
 }
 
 .btn-success {
-  background-color: var(--dark-green);
+  background-color: #60ba59;
 }
 
 .btn-danger {
