@@ -695,15 +695,15 @@ footer a {
 }
 
 .btn-primary {
-  background-color: #1976d2;
+  background-color: var(--blue);
 }
 
 .text-warning {
-  color: #f57f17;
+  color: var(--yellow);
 }
 
 .text-success {
-  color: #4caf50;
+  color: var(--green);
 }
 
 .text-danger {
