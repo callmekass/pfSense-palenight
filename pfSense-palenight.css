@@ -1187,3 +1187,25 @@ svg {
   fill: var(--cyan) !important;
   stroke: var(--cyan) !important;
 }
+
+g.nv-axis text,
+g.nv-legend text {
+  fill: var(--foreground);
+}
+
+.nvd3 .nv-axis line,
+.nvd3 .nv-axis path {
+  fill: var(--contrast) !important;
+  stroke: var(--contrast) !important;
+}
+
+.nvtooltip > h3 {
+  background-color: var(--background);
+  border-bottom: 1px solid var(--contrast);
+  color: var(--foreground);
+}
+
+.nvtooltip {
+  background: var(--background);
+  color: var(--foreground);
+}
