@@ -27,8 +27,6 @@
   --background: #292d3e;
   --foreground: #a6accd;
   --text: #676e95;
-  --border: #717cb470;
-  --border-secondary: #717cb4;
   --selection-foreground: #ffffff;
   --buttons: #303348;
   --second-background: #34324a;
@@ -36,6 +34,7 @@
   --contrast: #202331;
   --active: #414863;
   --border: #2b2a3e;
+  --border-secondary: #717cb470;
   --highlight: #444267;
   --notifications: #202331;
   --accent-color: #ab47bc;
