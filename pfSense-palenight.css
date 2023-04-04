@@ -1137,12 +1137,37 @@ svg {
   box-shadow: inset 0 0px 0 white, inset 0 -1px 0 #a6accd;
 }
 
+/* Formatting for the Traffic Graph widget */
+.nv-group {
+  stroke-width: 3 !important;
+}
+
 .nv-series-0 {
-  fill: var(--blue);
-  stroke: var(--blue);
+  fill: var(--purple) !important;
+  stroke: var(--purple) !important;
 }
 
 .nv-series-1 {
-  fill: var(--yellow);
-  stroke: var(--yellow);
+  fill: var(--cyan) !important;
+  stroke: var(--cyan) !important;
+}
+
+.nv-series-2 {
+  fill: var(--green) !important;
+  stroke: var(--green) !important;
+}
+
+.nv-series-3 {
+  fill: var(--yellow) !important;
+  stroke: var(--yellow) !important;
+}
+
+.nv-series-4 {
+  fill: var(--orange) !important;
+  stroke: var(--orange) !important;
+}
+
+.nv-series-5 {
+  fill: var(--red) !important;
+  stroke: var(--red) !important;
 }
