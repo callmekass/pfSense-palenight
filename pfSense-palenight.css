@@ -1189,7 +1189,8 @@ svg {
 }
 
 g.nv-axis text,
-g.nv-legend text {
+g.nv-legend text,
+.nvd3-svg .interface-label {
   fill: var(--foreground);
 }
 
