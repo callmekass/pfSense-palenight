@@ -621,7 +621,7 @@ footer a {
   width: 1px;
 }
 
-/** Override the bootstrap progress bar margins */
+/** Override the bootstrap progress bar margins and background colors */
 .progress {
   margin-bottom: 0px;
   height: 14px;
