@@ -1139,7 +1139,8 @@ svg {
 
 /* Formatting for the Traffic Graph widget */
 .nv-group {
-  stroke-width: 3 !important;
+  stroke-width: 2 !important;
+  stroke-opacity: 0.8 !important;
 }
 
 .nv-series-0 {
@@ -1150,24 +1151,4 @@ svg {
 .nv-series-1 {
   fill: var(--cyan) !important;
   stroke: var(--cyan) !important;
-}
-
-.nv-series-2 {
-  fill: var(--green) !important;
-  stroke: var(--green) !important;
-}
-
-.nv-series-3 {
-  fill: var(--yellow) !important;
-  stroke: var(--yellow) !important;
-}
-
-.nv-series-4 {
-  fill: var(--orange) !important;
-  stroke: var(--orange) !important;
-}
-
-.nv-series-5 {
-  fill: var(--red) !important;
-  stroke: var(--red) !important;
 }
