@@ -485,7 +485,7 @@ tr.disabled a {
   position: relative;
   margin: 10px 0 20px 0;
   margin-bottom: 10px;
-  background-color: var(--second-background);
+  background-color: var(--contrast);
 }
 
 .header .context-links {
@@ -625,6 +625,7 @@ footer a {
 .progress {
   margin-bottom: 0px;
   height: 14px;
+  background-color: #eeeeff;
 }
 
 #wizard .progress {
