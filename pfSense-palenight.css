@@ -1195,13 +1195,13 @@ g.nv-legend text,
 }
 
 g.nvd3.nv-legend g g.nv-series:first-child circle.nv-legend-symbol {
-  fill: var(--purple);
-  stroke: var(--purple);
+  fill: var(--purple) !important;
+  stroke: var(--purple) !important;
 }
 
 g.nvd3.nv-legend g g.nv-series:last-child circle.nv-legend-symbol {
-  fill: var(--cyan);
-  stroke: var(--cyan);
+  fill: var(--cyan) !important;
+  stroke: var(--cyan) !important;
 }
 
 .nvd3 .nv-axis line,
