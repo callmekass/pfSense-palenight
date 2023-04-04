@@ -506,11 +506,9 @@ tr.disabled a {
 }
 
 .breadcrumb > li + li:before {
-  color: var(--tags);
-}
-
-ul.context-links li a {
-  color: var(--tags);
+  padding: 0;
+  padding-left: 5px;
+  color: var(--text);
 }
 
 /** Form tweaks */
