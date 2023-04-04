@@ -27,7 +27,7 @@
   --background: #292d3e;
   --foreground: #a6accd;
   --text: #676e95;
-  --selection-background: #717cb470;
+  --border-color: #717cb470;
   --selection-foreground: #ffffff;
   --buttons: #303348;
   --second-background: #34324a;
@@ -140,6 +140,15 @@ wbr:after {
 
 .ui-widget {
   font-family: Roboto, sans-serif;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-color: var(--border-color);
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
