@@ -1215,13 +1215,28 @@ g.nvd3.nv-legend g g.nv-series:last-child circle.nv-legend-symbol {
   stroke: var(--contrast) !important;
 }
 
-.nvtooltip > h3 {
-  background-color: var(--background);
-  border-bottom: 1px solid var(--contrast);
-  color: var(--foreground);
+.nvtooltip h3 {
+  background-color: var(--background) !important;
+  border-bottom: 1px solid var(--contrast) !important;
+  color: var(--foreground) !important;
+  border-radius: 0 !important;
 }
 
 .nvtooltip {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--background) !important;
+  color: var(--foreground) !important;
+  border-radius: 0px !important;
+}
+
+.nvtooltip table tbody tr:first-child td.legend-color-guide div {
+  background-color: var(--purple) !important;
+}
+
+.nvtooltip table tbody tr:last-child td.legend-color-guide div {
+  background-color: var(--cyan) !important;
+}
+
+.nvtooltip table td.legend-color-guide div {
+  border: none !important;
+  border-radius: 100% !important;
 }
