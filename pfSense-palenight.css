@@ -296,6 +296,7 @@ tr.disabled a {
   border-radius: 0;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
   background-color: var(--second-background);
+  border: none;
 }
 
 .panel-default > .panel-heading {
