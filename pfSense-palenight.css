@@ -225,12 +225,12 @@ tr.disabled a {
   padding: 14px 19px 10px 19px;
   border-bottom: 5px solid #f5f5f5;
   border-radius: 0;
-  color: var(--tags);
+  color: var(--purple);
 }
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-  border-bottom: 5px solid var(--tags);
+  border-bottom: 5px solid var(--purple);
   background-color: #f5f5f5;
 }
 
@@ -239,8 +239,8 @@ tr.disabled a {
 .nav li.open > a,
 .nav li.open > a:focus,
 .nav-pills > li.active > a:hover {
-  border-bottom: 5px solid var(--tags);
-  color: var(--tags);
+  border-bottom: 5px solid var(--purple);
+  color: var(--purple);
   background-color: #f5f5f5;
 }
 
@@ -262,14 +262,14 @@ tr.disabled a {
   border-right: 1px solid #f5f5f5;
   border-top: 1px solid #f5f5f5;
   background-color: #f5f5f5;
-  border-bottom: 5px solid var(--tags);
+  border-bottom: 5px solid var(--purple);
   margin-bottom: 0;
-  color: var(--tags);
+  color: var(--purple);
   box-shadow: none;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid var(--tags);
+  border-bottom: 1px solid var(--purple);
   margin-bottom: 15px;
 }
 
@@ -620,19 +620,19 @@ footer a {
 }
 
 .progress-bar {
-  background-color: var(--tags);
+  background-color: var(--purple);
 }
 
 .progress-bar.progress-bar-success {
-  background-color: #4caf50;
+  background-color: var(--green);
 }
 
 .progress-bar.progress-bar-warning {
-  background-color: #fbc02d;
+  background-color: var(--yellow);
 }
 
 .progress-bar.progress-bar-danger {
-  background-color: var(--tags);
+  background-color: var(--red);
 }
 
 .panel-body.collapse.in {
@@ -687,7 +687,7 @@ footer a {
 }
 
 .btn-success {
-  background-color: #43a047;
+  background-color: var(--green);
 }
 
 .btn-danger {
