@@ -1199,6 +1199,11 @@ g.nv-legend text,
   fill: var(--foreground);
 }
 
+.nvd3-svg .interface-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 g.nvd3.nv-legend g g.nv-series:first-child circle.nv-legend-symbol {
   fill: var(--purple) !important;
   stroke: var(--purple) !important;
