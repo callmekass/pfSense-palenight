@@ -308,6 +308,12 @@ tr.disabled a {
   color: var(--foreground);
 }
 
+dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  color: var(--foreground);
+  background-color: var(--contrast);
+}
+
 .navbar-right > li > a {
   padding: 14px 15px 10px 15px;
 }
