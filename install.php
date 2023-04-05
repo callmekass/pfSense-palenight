@@ -1,7 +1,7 @@
 <?php
 
-  $symbol_check "\e[0;32m\xe2\x9c\x93\e[0m";
-  $symbol_cross "\e[0;31m\xe2\x9c\x95\e[0m";
+  $symbol_check = "\e[0;32m\xe2\x9c\x93\e[0m";
+  $symbol_cross = "\e[0;31m\xe2\x9c\x95\e[0m";
 
   echo "Intializing theme installation\n";
 
