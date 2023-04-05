@@ -288,6 +288,9 @@ tr.disabled a {
   border-bottom: 5px solid var(--purple);
   margin-bottom: 0;
   color: var(--purple);
+}
+
+nav-tabs > li.active {
   background-color: var(--contrast);
 }
 
