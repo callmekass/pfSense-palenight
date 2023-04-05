@@ -271,6 +271,11 @@ tr.disabled a {
   color: #bdbdbd;
 }
 
+.nav-tabs {
+  border-bottom: 1px solid var(--purple);
+  margin-bottom: 15px;
+}
+
 .nav-tabs > li > a {
   border-bottom: 5px solid #f5f5f5;
   margin-bottom: 1px;
@@ -280,19 +285,10 @@ tr.disabled a {
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li > a:hover {
-  border-left: 1px solid #f5f5f5;
-  border-right: 1px solid #f5f5f5;
-  border-top: 1px solid #f5f5f5;
-  background-color: #f5f5f5;
   border-bottom: 5px solid var(--purple);
   margin-bottom: 0;
   color: var(--purple);
-  box-shadow: none;
-}
-
-.nav-tabs {
-  border-bottom: 1px solid var(--purple);
-  margin-bottom: 15px;
+  background-color: var(--contrast);
 }
 
 .nav-pills {
