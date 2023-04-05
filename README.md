@@ -1,8 +1,8 @@
 # pfSense Palenight
 
-A palenight inspired theme for pfSense.
+A palenight inspired theme for pfSense. [View more screenshots](screenshots)
 
-## Screenshots
+<img src="screenshots/preview_main.png" alt="Dashboard preview" width="700">
 
 ## Installation
 
