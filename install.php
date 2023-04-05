@@ -10,10 +10,10 @@
   // Get file from url and save to css themes folder
   if (file_put_contents($file_path, file_get_contents($url)))
   {
-      echo 'Theme installed successfully - '.$file_name.'\n';
+      echo 'Theme installed successfully - '.$file_name."\n";
   }
   else
   {
-      echo 'Failed to download theme - '.$file_name.'\n';
+      echo 'Failed to download theme - '.$file_name."\n";
   }
 ?>
