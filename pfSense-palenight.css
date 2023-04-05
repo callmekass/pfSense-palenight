@@ -594,7 +594,7 @@ form .btn + .btn {
 }
 
 .footer .container .text-muted::after {
-  content: '\a Palenight theme by callmekass. v0.1';
+  content: '\a Palenight theme by callmekass. v0.2';
   white-space: pre;
 }
 
