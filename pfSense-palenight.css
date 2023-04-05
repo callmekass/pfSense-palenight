@@ -280,20 +280,6 @@ tr.disabled a {
   margin-bottom: 1px;
 }
 
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li > a:hover {
-  border-color: transparent;
-  border-bottom: 5px solid var(--purple);
-  margin-bottom: 0;
-  color: var(--purple);
-}
-
-nav-tabs > li.active {
-  background-color: var(--contrast);
-}
-
 .nav-pills {
   margin-bottom: 20px;
 }
