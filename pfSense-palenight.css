@@ -155,6 +155,15 @@ wbr:after {
   border-color: var(--border);
 }
 
+.table .table {
+  background-color: transparent;
+}
+
+.table thead,
+.table tfoot {
+  background-color: var(--contrast);
+}
+
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: var(--second-background);
 }
@@ -592,6 +601,11 @@ footer a {
 
 .widget .panel-heading {
   background-color: #757575;
+}
+
+.panel-footer {
+  background-color: var(--second-background);
+  border-top: 2px solid var(--border);
 }
 
 #widgetSequence {
