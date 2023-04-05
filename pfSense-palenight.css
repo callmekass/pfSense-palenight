@@ -70,7 +70,7 @@ html {
 }
 
 body {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   background-color: var(--background);
   color: var(--foreground);
   font-family: 'Roboto', sans-serif;
@@ -570,10 +570,15 @@ form .btn + .btn {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 60px;
   background-color: var(--contrast);
   padding-top: 10px;
   text-align: center;
+}
+
+.footer .container .text-muted::after {
+  content: '\a Palenight theme by CallMeKass.';
+  white-space: pre;
 }
 
 footer a {
