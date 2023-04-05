@@ -260,7 +260,6 @@ tr.disabled a {
 .nav-tabs,
 .nav-pills {
   border: none;
-  border-bottom: 5px solid var(--foreground);
 }
 
 .nav-pills > li.active > a,
