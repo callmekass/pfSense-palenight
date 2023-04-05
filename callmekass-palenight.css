@@ -1282,6 +1282,6 @@ g.nvd3.nv-legend g g.nv-series:last-child circle.nv-legend-symbol {
 
 /** theme version added to footer*/
 .footer .container .text-muted::after {
-  content: '\a Palenight theme by callmekass. v0.3';
+  content: '\a Palenight theme by callmekass. v1.0.0';
   white-space: pre;
 }
