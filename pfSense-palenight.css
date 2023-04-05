@@ -272,7 +272,6 @@ tr.disabled a {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid var(--purple);
   margin-bottom: 15px;
 }
 
@@ -285,6 +284,7 @@ tr.disabled a {
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li > a:hover {
+  border: none;
   border-bottom: 5px solid var(--purple);
   margin-bottom: 0;
   color: var(--purple);
