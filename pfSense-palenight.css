@@ -245,6 +245,7 @@ tr.disabled a {
 
 .nav > li > a {
   padding: 14px 19px 10px 19px;
+  border: none;
   border-bottom: 5px solid var(--foreground);
   border-radius: 0;
   color: var(--foreground);
