@@ -1,5 +1,5 @@
 <?php
-  echo "Intializing theme installation\n";
+  echo "###Intializing theme installation\n";
 
 
   $url = 'https://raw.githubusercontent.com/callmekass/pfSense-palenight/main/callmekass-palenight.css';
