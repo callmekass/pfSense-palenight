@@ -253,14 +253,8 @@ tr.disabled a {
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-  border: none;
   border-bottom: 5px solid var(--purple);
   background-color: transparent;
-}
-
-.nav-tabs,
-.nav-pills {
-  border: none;
 }
 
 .nav-pills > li.active > a,
@@ -286,7 +280,7 @@ tr.disabled a {
 
 .navbar-inverse .navbar-nav > li > a {
   border-bottom: 5px solid var(--contrast);
-  color: #bdbdbd;
+  color: var(--foreground);
 }
 
 .nav-tabs {
@@ -311,7 +305,7 @@ tr.disabled a {
   color: var(--foreground);
 }
 
-dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
   color: var(--foreground);
   background-color: var(--contrast);
