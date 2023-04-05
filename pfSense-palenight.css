@@ -243,6 +243,10 @@ tr.disabled a {
   line-height: 0.3em;
 }
 
+.nav {
+  background-color: var(--contrast);
+}
+
 .nav > li > a {
   padding: 14px 19px 10px 19px;
   border: none;
