@@ -7,7 +7,7 @@
   // Use basename() function to return the base name of file
   $file_name = basename($url);
 
-  echo $file_name
+  echo $file_name;
   
   // Use file_get_contents() function to get the file
   // from url and use file_put_contents() function to
