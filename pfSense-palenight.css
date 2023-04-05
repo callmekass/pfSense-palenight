@@ -252,14 +252,14 @@ tr.disabled a {
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-  border-color: transparent;
+  border: none;
   border-bottom: 5px solid var(--purple);
   background-color: transparent;
 }
 
 .nav-tabs,
 .nav-pills {
-  border-color: transparent;
+  border: none;
   border-bottom: 5px solid var(--foreground);
 }
 
@@ -278,6 +278,7 @@ tr.disabled a {
 .nav li.open > a,
 .nav li.open > a:focus,
 .nav-tabs > li.active > a:hover {
+  border: none;
   border-bottom: 5px solid var(--purple);
   color: var(--foreground);
   background-color: var(--contrast);
