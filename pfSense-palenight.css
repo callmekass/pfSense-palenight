@@ -256,6 +256,12 @@ tr.disabled a {
   background-color: transparent;
 }
 
+.nav-tabs,
+.nav-pills {
+  border-color: transparent;
+  border-bottom: 5px solid var(--foreground);
+}
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav li.open > a,
