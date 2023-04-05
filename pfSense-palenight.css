@@ -252,6 +252,7 @@ tr.disabled a {
 
 .nav > li > a:focus,
 .nav > li > a:hover {
+  border-color: transparent;
   border-bottom: 5px solid var(--purple);
   background-color: transparent;
 }
