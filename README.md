@@ -1,10 +1,10 @@
 # pfSense Palenight
 
-A palenight inspired theme for pfSense. [View more screenshots](screenshots)
+A palenight inspired theme for pfSense. View more [screenshots](screenshots) or checkout the [installation guide](#installation-guide).
 
 <img src="screenshots/preview_main.png" alt="Dashboard preview" width="700">
 
-## Installation
+## Installation Guide
 
 1. Login to the web configurator
 2. From the navigation menu select Diagnostics > Command Prompt
