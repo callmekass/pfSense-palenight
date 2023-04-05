@@ -592,12 +592,7 @@ form .btn + .btn {
   text-align: center;
 }
 
-.footer .container .text-muted::after {
-  content: '\a Palenight theme by callmekass. v0.2';
-  white-space: pre;
-}
-
-footer a {
+.footer a {
   color: var(--foreground);
 }
 
@@ -1280,4 +1275,10 @@ g.nvd3.nv-legend g g.nv-series:last-child circle.nv-legend-symbol {
 .nvtooltip table td.legend-color-guide div {
   border: none !important;
   border-radius: 100% !important;
+}
+
+/** theme version added to footer*/
+.footer .container .text-muted::after {
+  content: '\a Palenight theme by callmekass. v0.3';
+  white-space: pre;
 }
