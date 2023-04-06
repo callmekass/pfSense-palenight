@@ -223,21 +223,22 @@ tr.disabled a {
   width: 105px;
 }
 
-.logo-st0 {
-  fill: var(--foreground);
-}
-
-.logo-st1 {
-  fill: var(--foreground);
-}
-
-.logo-st2 {
+.logo-st0,
+.logo-st1,
+.logo-st2,
+.logo-st3,
+.logo-st4,
+.logo-st5 {
   fill: var(--foreground);
 }
 
 .navbar-brand {
   padding: 5px 10px 0 10px;
   line-height: 0.3em;
+}
+
+.factory.navbar-brand {
+  padding-top: 10px;
 }
 
 .nav {
