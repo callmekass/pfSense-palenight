@@ -600,7 +600,7 @@ form .btn + .btn {
 }
 
 .widget .panel-heading {
-  background-color: #757575;
+  background-color: var(--contrast);
 }
 
 .panel-footer {
