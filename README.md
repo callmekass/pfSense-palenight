@@ -11,7 +11,7 @@ View more [screenshots](screenshots) or checkout the [installation guide](#insta
 3. Download callmekass-palenight.css and place it inside of /usr/local/www/css. This can be done manually **OR** by executing the following shell command
 
 ```
-curl -s https://raw.githubusercontent.com/callmekass/pfSense-palenight/script/install.php | php
+curl -s https://raw.githubusercontent.com/callmekass/pfSense-palenight/main/install.php | php
 ```
 
 4. From the navigation menu select System > General Setup
