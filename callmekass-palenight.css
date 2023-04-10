@@ -263,12 +263,7 @@ tr.disabled a {
 .nav-pills > li.active > a:focus,
 .nav li.open > a,
 .nav li.open > a:focus,
-.nav-pills > li.active > a:hover {
-  border-bottom: 5px solid var(--purple);
-  color: var(--foreground);
-  background-color: var(--contrast);
-}
-
+.nav-pills > li.active > a:hover,
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
 .nav li.open > a,
@@ -277,7 +272,7 @@ tr.disabled a {
   border: none;
   border-bottom: 5px solid var(--purple);
   color: var(--foreground);
-  background-color: var(--contrast);
+  background-color: var(--second-background);
 }
 
 .navbar-inverse .navbar-nav > li > a {
